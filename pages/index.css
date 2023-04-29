@@ -8,38 +8,64 @@
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
   background-color: #000;
-
-}
-
-.header{
-  width: 1280px;
-}
-
-.logo{
-  width: 880px;
-  height: 74px;
-  padding: 45px 0 36px;
-  border: 1px solid red;
-}
-
-.content{
-  width: 1280px;
+  color: #FFF;
 }
 
 .popup{
   display: none;
 }
 
-.profile{
+/* header */
+
+.header{
   width: 1280px;
   display: flex;
+  justify-content: center;
+  padding: 45px 0 36px;
+}
+
+.logo{
+  width: 880px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.logo__vetor{
+  width: 173px;
+  height: 33px;
+
+}
+
+.logo__line{
+  width: 880px;
+
+}
+
+.content{
+  width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+/* profile */
+
+.profile{
+  width: 880px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .profile__descrition{
-  width: 880px;
-  height: 120px;
-  border: 1px solid red;
   display: flex;
+  align-items: center;
+  column-gap: 30px;
 }
 
 .button-follow{
@@ -55,65 +81,212 @@
 }
 
 .profile__main{
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
 }
 
 .profile__person{
-  border: 1px solid red;
+  display: flex;
+  align-items: flex-end;
+  column-gap: 18px;
 }
 
 .profile__name{
-  width: 373px;
   height: 39px;
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
-  color: #FFF;
+  margin: 0;
+}
 
+.button{
+  cursor: pointer;
+}
+
+.button:hover{
+  opacity: 40%;
 }
 
 .button-edit{
   width: 24px;
   height: 24px;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 .profile__title{
-  width: 415px;
-  height: 22px;
+  padding-top: 16px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #FFF;
+  margin: 0;
 }
 
+/* galery */
+
 .galery{
-  width: 1280px;
+  width: 880px;
   height: 100%;
-  border: 1px solid red;
   padding-top: 50px;
   background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 17px;
+  row-gap: 20px;
+  color: #000;
 }
 
 .galery__card{
   width: 282px;
   height: 361px;
   background-color: #FFF;
-  border: 1px solid red;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galery__pic{
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.galery__description{
+  display: flex;
+  width: 246px;
+  height: 79px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 21px;
+}
+
+.galery__title{
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.galery__heart{
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.galery__heart:hover{
+  opacity: 50%;
 }
 
 .footer{
   width: 1280px;
-  background-color: #000;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__title{
-  width: 318px;
+  width: 880px;
   padding: 68px 0 60px;
   color: #545454;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+}
+
+@media screen and (max-width: 320px){
+  .page{
+  width: 320px;
+  }
+
+  .header{
+    width: 320px;
+  }
+
+  .logo{
+    width: 320px;
+    height: 56px;
+    padding: 28px 0 38px;
+  }
+
+  .content{
+    width: 320px;
+  }
+
+  .profile{
+    width: 282px;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile__descrition{
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    width: 282px;
+    height: 100%;
+  }
+
+  .button-follow{
+    width: 282px;
+    height: 50px;
+  }
+
+  .profile__main{
+    width: 282px;
+    height: 50px;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .profile__person{
+    column-gap: 0;
+    width: 224px;
+    align-items: normal;
+    justify-content: space-between;
+  }
+
+  .profile__name{
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    height: 0;
+  }
+
+  .button-edit{
+    width: 18px;
+    height: 18px;
+  }
+
+  .profile__title{
+    padding-top: 14px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+
+  .galery{
+    width: 320px;
+    padding-top: 36px;
+    justify-content: center;
+  }
+
+  .footer{
+    width: 320px;
+  }
+
+  .footer__title{
+    width: 282px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 50px 0 36px;
+  }
+
 }
