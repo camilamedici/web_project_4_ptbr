@@ -1,16 +1,9 @@
 # Projeto 4:  EUA Afora
 
-### Visão geral
+Este é um projeto que mostra lugares ao redor dos Estados Unidos desenvolvido pela Practicum e o primeiro projeto incluindo Java Script, incluindo um pop up para conseguimos alterar os nomes do profile da pagina. Fizemos isso para que todos os elementos sejam exibidos corretamente em tamanhos de tela populares. Usamos Figma como layout, Java Script, HTML e CSS para desenvolvimento da pagina.
 
-* Figma
-* Imagens
-
-**Figma**
+[Conheça o projeto](https://camilamedici.github.io/web_project_4_ptbr/)
 
 * [Link para o projeto no Figma](https://www.figma.com/file/XfB6BSINvliub43JgKza1e/WEB.-Sprint-4.-Around-The-U.S.-desktop-%2B-mobile-pt)
-
-**Imagens**
-
-A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido.
 
 Divirta-se com JavaScript!
