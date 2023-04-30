@@ -21,14 +21,18 @@
 
     <main class="content">
       <div class="popup">
-        <button class="button"><img src="./image/CloseIcon.png"></button>
-        <h3></h3>
-        <form>
-          <input>
-          <input>
-          <input>
-          <button class="button"><img src="./image/SubmitButton.png"></im></button>
-        </form>
+        <button class="button button-close" type="button"><img src="./image/CloseIcon.png"></button>
+        <div class="popup__description">
+          <h3 class="popup__title">Editar Perfil</h3>
+          <form class="popup__form">
+            <input class="popup__name" type="text" name="nome" placeholder="Nome">
+            <img class="popup__line" src="./image/Line.svg" alt="line">
+            <input class="popup__sobre" type="text" name="sobre" placeholder="Sobre Mim">
+            <img class="popup__line" src="./image/Line.svg" alt="line">
+          </form>
+          <button class="button button-submit" type="submit"><img src="./image/SubmitButton.png"></button>
+        </div>
+
       </div>
 
       <section class="profile">

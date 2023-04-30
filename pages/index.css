@@ -11,9 +11,6 @@
   color: #FFF;
 }
 
-.popup{
-  display: none;
-}
 
 /* header */
 
@@ -71,6 +68,7 @@
 .button-follow{
   width: 150px;
   height: 50px;
+
 }
 
 .profile__pic{
@@ -102,6 +100,7 @@
 
 .button{
   cursor: pointer;
+  padding: 0;
 }
 
 .button:hover{
@@ -200,9 +199,88 @@
   line-height: 22px;
 }
 
+
+.popup{
+  display: none;
+}
+
+.popup-change{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 430px;
+  height: 330px;
+  background: #FFFFFF;
+  color: #000;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 9;
+}
+
+.popup__title{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.popup__description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 358px;
+  margin-top: -6px;
+}
+
+.popup__form{
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.popup__name{
+  border: none;
+  margin-top: 54px;
+}
+
+.popup__sobre{
+  border: none;
+  margin-top: 30px;
+}
+
+.popup__line{
+  width: 358px;
+  padding-top: 13px;
+}
+
+.button-submit{
+  width: 358px;
+  height: 50px;
+  border: none;
+  margin: 0;
+  padding-top: 48px;
+  border-radius: 2px;
+}
+
+.button-close{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border: none;
+  right: -235px;
+  top: -40px;
+}
+
+
 @media screen and (max-width: 320px){
   .page{
-  width: 320px;
+    width: 320px;
   }
 
   .header{
@@ -301,3 +379,5 @@
   }
 
 }
+
+mudar para rem
