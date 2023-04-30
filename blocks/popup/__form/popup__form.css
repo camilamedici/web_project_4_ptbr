@@ -1,0 +1,8 @@
+.popup__form{
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}

@@ -1,0 +1,9 @@
+.logo__line{
+  width: 880px;
+}
+
+@media screen and (max-width: 320px){
+  .logo__line{
+    width: 320px;
+  }
+}

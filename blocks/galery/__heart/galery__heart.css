@@ -1,0 +1,9 @@
+.galery__heart{
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.galery__heart:hover{
+  opacity: 50%;
+}

@@ -1,0 +1,14 @@
+.profile__person{
+  display: flex;
+  align-items: flex-end;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 320px){
+  .profile__person{
+    column-gap: 0;
+    width: 224px;
+    align-items: normal;
+    justify-content: space-evenly;
+  }
+}

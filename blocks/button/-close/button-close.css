@@ -1,0 +1,18 @@
+.button-close{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border: none;
+  right: -235px;
+  top: -40px;
+  background-color: #000;
+}
+
+@media screen and (max-width: 320px){
+  .button-close{
+    height: 26px;
+    width: 26px;
+    right: -120px;
+    top: -40px;
+  }
+}

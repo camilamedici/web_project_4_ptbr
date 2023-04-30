@@ -1,0 +1,18 @@
+.button-follow{
+  width: 150px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  background-color: #000;
+  color: #FFF;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 320px){
+  .button-follow{
+    width: 282px;
+    height: 50px;
+  }
+}

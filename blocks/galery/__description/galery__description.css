@@ -1,0 +1,8 @@
+.galery__description{
+  display: flex;
+  width: 246px;
+  height: 79px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 21px;
+}
