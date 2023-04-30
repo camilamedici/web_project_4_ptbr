@@ -3,6 +3,10 @@
   src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+body{
+  background-color: #000;
+}
+
 .page{
   width: 1280px;
   margin: 0 auto;
@@ -93,8 +97,8 @@
   height: 39px;
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 48px;
+  font-size: 2.625rem;
+  line-height: 3rem;
   margin: 0;
 }
 
@@ -119,8 +123,8 @@
   padding-top: 16px;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   margin: 0;
 }
 
@@ -166,8 +170,8 @@
   margin: 0;
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -195,8 +199,8 @@
   color: #545454;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125;
+  line-height: 1.375rem;
 }
 
 
@@ -220,8 +224,8 @@
 .popup__title{
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
   margin: 0;
   align-self: flex-start;
 }
@@ -239,8 +243,8 @@
   display: flex;
   flex-direction: column;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
 }
 
 .popup__name{
@@ -342,8 +346,8 @@
   }
 
   .profile__name{
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 1.375rem;
+    line-height: 1.6875rem;
     text-align: center;
     height: 0;
   }
@@ -355,8 +359,8 @@
 
   .profile__title{
     padding-top: 14px;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
     text-align: center;
   }
 
@@ -372,19 +376,19 @@
 
   .footer__title{
     width: 282px;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
     padding: 50px 0 36px;
   }
 
   .popup-change{
-  width: 282px;
-  height: 322px;
+    width: 282px;
+    height: 322px;
   }
 
   .popup__title{
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
   }
 
   .popup__description{
@@ -414,5 +418,3 @@
     top: -40px;
   }
 }
-
-mudar para rem
