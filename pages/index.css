@@ -238,7 +238,6 @@
   font-style: normal;
   display: flex;
   flex-direction: column;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -264,7 +263,7 @@
   height: 50px;
   border: none;
   margin: 0;
-  padding-top: 48px;
+  margin-top: 48px;
   border-radius: 2px;
 }
 
@@ -378,6 +377,42 @@
     padding: 50px 0 36px;
   }
 
+  .popup-change{
+  width: 282px;
+  height: 322px;
+  }
+
+  .popup__title{
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .popup__description{
+    width: 238px;
+    margin-top: -1px;
+  }
+
+  .popup__name{
+    margin-top: 76px;
+  }
+
+  .popup__line{
+    width: 238px;
+    padding-top: 9px;
+  }
+
+  .button-submit{
+    width: 238px;
+    height: 46px;
+    margin-top: 46px;
+  }
+
+  .button-close{
+    height: 26px;
+    width: 26px;
+    right: -120px;
+    top: -40px;
+  }
 }
 
 mudar para rem
