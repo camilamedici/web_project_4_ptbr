@@ -72,7 +72,13 @@ body{
 .button-follow{
   width: 150px;
   height: 50px;
-
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  background-color: #000;
+  color: #FFF;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
 }
 
 .profile__pic{
@@ -105,6 +111,7 @@ body{
 .button{
   cursor: pointer;
   padding: 0;
+  height: 50px;
 }
 
 .button:hover{
@@ -117,6 +124,7 @@ body{
   margin: 0;
   border: 0;
   padding: 0;
+  background-color: #000;
 }
 
 .profile__title{
@@ -219,6 +227,7 @@ body{
   border-radius: 10px;
   position: fixed;
   z-index: 9;
+  top: 185px;
 }
 
 .popup__title{
@@ -266,9 +275,11 @@ body{
   width: 358px;
   height: 50px;
   border: none;
-  margin: 0;
   margin-top: 48px;
+  padding: 0;
   border-radius: 2px;
+  background-color: #000;
+  color: #FFF;
 }
 
 .button-close{
@@ -278,6 +289,7 @@ body{
   border: none;
   right: -235px;
   top: -40px;
+  background-color: #000;
 }
 
 
@@ -342,7 +354,7 @@ body{
     column-gap: 0;
     width: 224px;
     align-items: normal;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .profile__name{
@@ -384,6 +396,7 @@ body{
   .popup-change{
     width: 282px;
     height: 322px;
+    top: 125px
   }
 
   .popup__title{
