@@ -13,6 +13,8 @@ const submitButton = document.querySelector('.button-submit');
 editButton.addEventListener('click', addPopup);
 function addPopup() {
   popup.classList.add('popup-change'); //a class alterada so no css
+  inputName.value = profileName.textContent;
+  inputSobre.value = profileTitle.textContent;
 }
 
 
@@ -20,19 +22,20 @@ function addPopup() {
 closeButton.addEventListener('click', closePopup);
 function closePopup(){
   popup.classList.remove('popup-change');
+
 }
 
 //alterar os campos de input, salvar e fechar o popup
 submitButton.addEventListener('click', handlerFormSubmit)
-function handlerFormSubmit(event){ 
-  event.preventDefault();
+function handlerFormSubmit(event){
+  event.preventDefault();//para a pagina nao recarregar inteira quando clicar no botao salvar
   if (inputName.value != ''){ //se nao escrever nada, nao vai alterar o nome
     profileName.textContent = inputName.value;
-    inputName.value = ''; //para quando fechar o popup e abrir de novo, voltar com o campo limpo
+    //inputName.value = ''; //para quando fechar o popup e abrir de novo, voltar com o campo limpo
   }
   if (inputSobre.value != ''){
     profileTitle.textContent = inputSobre.value;
-    inputSobre.value = '';
+    //inputSobre.value = '';
   }
   closePopup(); //fechar o popup junto com salvar
 }
